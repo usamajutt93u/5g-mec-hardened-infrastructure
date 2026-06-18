@@ -1,0 +1,23 @@
+# Optimized Telemetry Footprint for Resource-Constrained 5G MEC Nodes
+prometheus:
+  prometheusSpec:
+    resources:
+      requests:
+        cpu: "100m"
+        memory: "256Mi"
+      limits:
+        cpu: "200m"
+        memory: "512Mi"
+
+grafana:
+  resources:
+    requests:
+      cpu: "50m"
+      memory: "100Mi"
+    limits:
+      cpu: "100m"
+      memory: "200Mi"
+
+# Disabled to maximize available user-plane CPU cycles
+alertmanager:
+  enabled: false

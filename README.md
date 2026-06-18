@@ -1,10 +1,4 @@
 
-Here is the fully completed, cohesive README.md file. It merges your preferred high-level academic title and design overview with the updated folder path details for your files.
-
-Run this single, self-terminating command block in your Ubuntu terminal to write the file cleanly without getting stuck:
-
-Bash
-cat << 'EOF' > ~/5g-mec-hardened-infrastructure/README.md
 # Securing Multi-Tenant 5G MEC Nodes Using Preventative Policy-as-Code and Advanced Observability
 
 This repository contains the complete infrastructure-as-code manifests and programmatic configurations for simulating and hardening a resource-constrained **5G Multi-access Edge Computing (MEC)** node infrastructure.
